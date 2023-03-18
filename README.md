@@ -1,4 +1,7 @@
-# Unity Code for Prediction Market Smart Contract
+# Unity Code for Prediction Market with Playnance Smart Contract
+
+![Untitled-1](https://user-images.githubusercontent.com/19206978/226078406-3da6083d-0483-499f-a372-6f46d72192d0.png)
+
 
 This is a set of Unity scripts that interact with a smart contract to create a prediction market for players to bet on the winner of a game. The smart contract creates a new pool for each game and sets the starting price for the winner's odds. Players can make trades by placing bets on either the "up" or "down" groups depending on their prediction of the winner. Once the game is over, the smart contract calculates the distribution of winnings based on the bets placed on the winning group and distributes the winnings accordingly.
 
