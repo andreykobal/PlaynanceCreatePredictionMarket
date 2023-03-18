@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class CreatePredictionMarket : MonoBehaviour
 {
-    public string contractAddress = "0x741C3F3146304Aaf5200317cbEc0265aB728FE07";
+    public string contractAddress = "0x316A98FB07bF6AaA95B2b27A79A76B499d372379";
     public string contractAbi = "[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_startingPrice\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"_bet\",\"type\":\"uint8\"}],\"name\":\"placeBet\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"endRound\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_winningBet\",\"type\":\"uint256\"}],\"name\":\"settleRound\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"winningBet\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}]";
     public int startingPrice = 100;
     public string privateKey;
